@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_cartitems",
+  "info": {
+    "displayName": "cartitem"
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    },
+    "quantity": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

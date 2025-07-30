@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "option",
+  "info": {
+    "singularName": "options",
+    "pluralName": "option",
+    "displayName": "Options"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}
